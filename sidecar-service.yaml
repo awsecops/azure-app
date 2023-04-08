@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx1
-  namespace: aha
+  name: nginx2
+  namespace: a
 spec:
   selector:
-    app: nginx1
+    app: nginx2
   ports:
   - protocol: TCP
     port: 80
